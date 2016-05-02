@@ -26,4 +26,4 @@ class Program
 
         Console.WriteLine("{0:0.0000}",avgF);
     }
-}
+} 
