@@ -19,7 +19,7 @@ class Program
             buses[i] = int.Parse(Console.ReadLine());
         }
 
-
+ 
 
         for (int i = 0; i < c - 1; i++)
         {
