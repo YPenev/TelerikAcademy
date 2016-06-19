@@ -46,7 +46,7 @@ namespace TeamWork
             Console.ForegroundColor = hit ? ConsoleColor.Red : ConsoleColor.White;
             Console.Write(hit ? "XXX" : body);
         }
-        public bool Overlap(Rock r)
+        public bool Overlap(DangerRock r)
         {
             if (Console.WindowHeight - 1 == r.y)
             {

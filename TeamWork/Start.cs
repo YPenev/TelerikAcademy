@@ -7,16 +7,16 @@ namespace  TeamWork
     class Game
     {
         static Random rand = new Random();
-        static List<Rock> rocks;
+        static List<DangerRock> rocks;
        
   
        
         static void Main()
         {
-            rocks = new List<Rock>();
+            rocks = new List<DangerRock>();
             SystemSetup.Initialisation();
             Player player = Player.GetInstance();
-            List<Rock> removeObsoletes;
+            List<DangerRock> removeObsoletes;
             bool hit = false;
             ConsoleKeyInfo pressedKey;
             while (true)
@@ -24,7 +24,7 @@ namespace  TeamWork
                 // adding new rocks
                 for (int i = 0, count = rand.Next(SystemSetup.playGroundWidth / (Info.scores > 200 ? 9 : 12)); i < count; i++)
                 {
-                    rocks.Add(new Rock());
+                    rocks.Add(new DangerRock());
                 }
                 // moving our dwarf
                 while (Console.KeyAvailable)
@@ -43,9 +43,9 @@ namespace  TeamWork
                         Environment.Exit(0); // leave game
                     }
                 }
-                removeObsoletes = new List<Rock>(); // rocks, which are to leave the screen
+                removeObsoletes = new List<DangerRock>(); // rocks, which are to leave the screen
                 hit = false;
-                foreach (Rock rock in rocks)
+                foreach (DangerRock rock in rocks)
                 {
                     if (!rock.MoveDown())
                     {
@@ -66,7 +66,7 @@ namespace  TeamWork
                     }
                 }
                 Console.Clear();
-                foreach (Rock old in removeObsoletes) // removing rocks, which are to leave the screen
+                foreach (DangerRock old in removeObsoletes) // removing rocks, which are to leave the screen
                 {
                     rocks.Remove(old);
                     Info.scores++;
@@ -77,7 +77,7 @@ namespace  TeamWork
                     Info.scores -= 10;
                 }
                 // printing
-                foreach (Rock rock in rocks)
+                foreach (DangerRock rock in rocks)
                 {
                     rock.Print();
                 }
