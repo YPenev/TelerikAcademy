@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDDHomework", "TDDHomework\TDDHomework.csproj", "{46922D84-88AE-457C-8BF9-0C67A2E11B22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Poker.Tests", "Poker.Tests\Poker.Tests.csproj", "{76849E16-74C0-404E-BD40-200A153637EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{46922D84-88AE-457C-8BF9-0C67A2E11B22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46922D84-88AE-457C-8BF9-0C67A2E11B22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46922D84-88AE-457C-8BF9-0C67A2E11B22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46922D84-88AE-457C-8BF9-0C67A2E11B22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76849E16-74C0-404E-BD40-200A153637EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76849E16-74C0-404E-BD40-200A153637EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76849E16-74C0-404E-BD40-200A153637EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76849E16-74C0-404E-BD40-200A153637EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
