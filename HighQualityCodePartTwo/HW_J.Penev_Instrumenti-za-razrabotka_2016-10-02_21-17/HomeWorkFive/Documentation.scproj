@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Chm">
+  <PropertyGroup>
+    <Name>SDocumentation</Name>
+    <TopicStyle>vs2005</TopicStyle>
+    <LanguageId>1033</LanguageId>
+  </PropertyGroup>
+  <ItemGroup>
+    <Dlls Include="D:\Study\_TELERIK\OtherHomeworks\ToolsHomework\HomeWorkFive\bin\Debug\HomeWorkFive.exe" />
+  </ItemGroup>
+  <Import Project="$(DXROOT)\Examples\Generic\generic.targets" />
+</Project>
