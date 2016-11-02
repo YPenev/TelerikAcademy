@@ -87,6 +87,13 @@ namespace DoFactory.GangOfFour.Strategy.Structural
 }
 ```
 
+##UML диаграма:
+
+![alt tag](http://www.dofactory.com/images/diagrams/net/strategy.gif)
+
+<br /><br /><br /><br /><br /><br />
+
+
 #Chain of responsibility
 
 Идеята му е при пускане на някаква заявка на даден клас и той  да знае какво да прави с нея,
@@ -209,6 +216,13 @@ namespace DesignPatternsCof
 
 ```
 
+##UML диаграма:
+
+![alt tag](http://www.dofactory.com/images/diagrams/net/chain.gif)
+
+<br /><br /><br /><br /><br /><br />
+
+
 #Iterator
 
 Идеята му е да ни позволи по някаккъв начин да обиколим дадена колекция коята не може да бъде обиколена по елементарен начин в езика.
@@ -330,6 +344,13 @@ public class ConcreteIterator : IteratorBase
 
 ```
 
+##UML диаграма:
+
+![alt tag](http://www.dofactory.com/images/diagrams/net/iterator.gif)
+
+<br /><br /><br /><br /><br /><br />
+
+
 #Template mehtod
 
 Идеята му е, че той дефинира някакв алгоритъм в някакъв базов клас и оставя имплементацията на алгоритъма за неговите наследници. 
@@ -396,3 +417,9 @@ public class ConcreteAlgorithmB : AlgorithmBase
     }
 }
 ```
+
+##UML диаграма:
+
+![alt tag](http://www.dofactory.com/images/diagrams/net/template.gif)
+
+
